@@ -1,0 +1,155 @@
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(120deg, #f0f4ff 0%, #e6eaff 100%);
+}
+
+.login-form {
+  background: #fff;
+  padding: 2.5rem 2rem;
+  border-radius: 1.2rem;
+  box-shadow: 0 4px 48px rgba(80, 112, 255, 0.09);
+  width: 100%;
+  max-width: 370px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.login-title {
+  margin-bottom: 0.2rem;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #506fff;
+}
+
+.login-subtitle {
+  color: #8b98b8;
+  margin-bottom: 1.2rem;
+}
+
+.login-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.login-input-group label {
+  font-size: 0.93rem;
+  color: #506fff;
+  font-weight: 500;
+}
+
+.login-input-group input {
+  padding: 0.7rem 1rem;
+  border: 1px solid #e6eaff;
+  border-radius: 0.7rem;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s;
+}
+.login-input-group input:focus {
+  border: 1.5px solid #506fff;
+}
+
+.login-password-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.show-hide-btn {
+  background: none;
+  border: none;
+  color: #506fff;
+  font-size: 0.95rem;
+  cursor: pointer;
+  padding: 0 0.5rem;
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.login-options {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.5rem;
+}
+
+.forgot-password-link {
+  color: #506fff;
+  font-size: 0.95rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-btn {
+  background: #506fff;
+  color: #fff;
+  border: none;
+  border-radius: 0.7rem;
+  padding: 0.9rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  transition: background 0.2s;
+}
+.login-btn:hover {
+  background: #3951b2;
+}
+
+.login-divider {
+  text-align: center;
+  color: #b8bdcc;
+  margin: 0.6rem 0;
+  font-size: 0.97rem;
+  position: relative;
+}
+.login-divider::before, .login-divider::after {
+  content: "";
+  display: inline-block;
+  width: 35%;
+  height: 1px;
+  background: #e6eaff;
+  vertical-align: middle;
+  margin: 0 0.4rem;
+}
+
+.login-social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  background: #f4f7ff;
+  border: 1px solid #e6eaff;
+  border-radius: 0.7rem;
+  padding: 0.9rem 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #506fff;
+  cursor: pointer;
+  margin-bottom: 0.2rem;
+  transition: background 0.2s;
+}
+.login-social-btn:hover {
+  background: #e6eaff;
+}
+.login-social-btn img {
+  width: 1.4em;
+  height: 1.4em;
+}
+
+.login-signup-link {
+  text-align: center;
+  font-size: 0.96rem;
+  color: #8b98b8;
+  margin-top: 0.5rem;
+}
+.login-signup-link a {
+  color: #506fff;
+  font-weight: 500;
+  text-decoration: none;
+}
